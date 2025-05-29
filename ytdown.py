@@ -56,7 +56,7 @@ if format_pilihan == '1':
     api = f"https://fastrestapis.fasturl.cloud/downup/ytmp3?url={yt_url}&quality=128kbps&server=auto"
     ekstensi = "mp3"
 elif format_pilihan == '2':
-    api = f"https://fastrestapis.fasturl.cloud/downup/ytmp4?url={yt_url}&quality=480&server=auto"
+    api = f"https://fastrestapis.fasturl.cloud/downup/ytmp4?url={yt_url}&quality=720&server=auto"
     ekstensi = "mp4"
 else:
     print(f"\n{merah}[{putih}!{merah}]{cyan} Pilihan tidak valid.{reset}")
